@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
@@ -117,4 +118,125 @@ h1{
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 40px;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    margin: 0px;
+    background-color: #FFFEFE;
+    font-family: 'Volkhov', Courier, monospace;
+}
+
+h1{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.navBar{
+    background-color: #FFFEFE;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.navMenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+    padding-right: 150px;
+}
+
+.navMenu li{
+    padding: 0px 60px;
+    list-style: none;
+}
+
+.navMenu a{
+    font-family: 'Arimo', Courier, monospace;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: rgb(75, 75, 75);
+}
+
+.navMenu a:hover{
+    color:coral;
+}
+
+.portadaContainer{
+    height: 100dvh;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.portadaTexto{
+    z-index: 999;
+    position: absolute;
+}
+
+.portada{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    filter: blur(2px);
+    background-color:rgb(254, 232, 205);
+    background-image: url("../img/mar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo{
+    margin-left: 80px;
+    font-size: 6em;
+    color: aliceblue;
+    text-shadow: 1px -1px 42px rgb(0, 0, 0);
+}
+
+.portadaContainer p{
+    margin-left: 80px;
+    font-size: 40px;
+    color: beige;
+}
+
+.persona{
+    position: absolute;
+    right: 90px;
+    bottom: 0px;
+}
+
+.fondo{
+    height: 110%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.categoriasTitulo{
+    margin: 100px;
+    font-size: 46px;
+}
+
+.categoriasContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+.categoriasCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+>>>>>>> 1642092 (Actualizacion de favicon)
 }
