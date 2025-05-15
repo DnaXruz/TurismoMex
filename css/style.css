@@ -96,6 +96,7 @@ h1{
 .fondo{
     height: 110%;
     position: absolute;
+    opacity: 75%;
     top: 0px;
     right: 0px;
 }
