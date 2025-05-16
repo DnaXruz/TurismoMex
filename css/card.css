@@ -19,16 +19,17 @@
 }
 
 .cards1{
+    background-image: url("../img/ventana.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 10px;
     max-width: 500px;
-    max-height: 400px;
-    border-radius: 8px;
-    padding: 10px 35px;
-    box-shadow: rgba(0, 0, 0, 0.1) 2px 4px 12px;
+    max-height: 600px;
+    border-radius: 10px;
+    padding: 25px 35px;
+    box-shadow: rgba(0, 0, 0, 0.194) 2px 4px 22px;
 }
 
 .cards1 p:last-child{
@@ -43,8 +44,7 @@
 }
 
 .cards1:hover{
-    border-bottom: 8px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(36, 36, 38, 0.372) 0px 7px 29px 0px;
 }
 
 .tituloCards{
