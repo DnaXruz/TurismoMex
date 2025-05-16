@@ -19,7 +19,7 @@
 }
 
 .cards1{
-    background-image: url("../img/ventana.jpg");
+   /*background-image: url("../img/ventana.jpg");*/
     display: flex;
     flex-direction: column;
     justify-content: center;
