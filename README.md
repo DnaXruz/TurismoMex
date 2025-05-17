@@ -4,11 +4,11 @@ Este proyecto es un sitio web estático que presenta cinco de los destinos turí
 
 ## 🛫 Destinos incluidos
 
-- 🏖️ **Cancún** – Playas, vida nocturna y ruinas mayas.
-- 🏙️ **Ciudad de México** – Historia, museos y cultura urbana.
-- 🎭 **Oaxaca** – Tradición, gastronomía y zonas arqueológicas.
-- 🏞️ **Chiapas** – Naturaleza, cascadas y civilización maya.
-- 🏛️ **San Miguel de Allende** – Arquitectura colonial y arte.
+- 🏙️ **Ciudad de México (CDMX)** - Una ciudad vibrante, cultural y llena de historia cdmx.html:41-43
+- 🏛️ **Puebla** - Historia, sabor y tradición en el corazón de México puebla.html:42-44
+- 🏖️ **Cancún** - Playas paradisíacas y cultura maya en el Caribe Mexicano cancun.html:42-44
+
+Estos son los tres destinos principales que están implementados como páginas individuales en el sitio web, cada uno con su propia página HTML y archivo CSS específico.
 
 ## 📂 Estructura del proyecto
 
