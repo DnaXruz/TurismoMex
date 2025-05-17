@@ -1,6 +1,6 @@
 # 🌎 Principales Destinos Turísticos de México
 
-Este proyecto es un sitio web estático que presenta cinco de los destinos turísticos más destacados de México. Su objetivo es ofrecer información atractiva y accesible para turistas nacionales e internacionales que deseen conocer más sobre estos lugares.
+Este proyecto es un sitio web estático que presenta algunos de los destinos turísticos más destacados de México. Su objetivo es ofrecer información atractiva y accesible para turistas nacionales e internacionales que deseen conocer más sobre estos lugares.
 
 ## 🛫 Destinos incluidos
 
