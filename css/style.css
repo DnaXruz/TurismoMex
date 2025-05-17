@@ -47,6 +47,7 @@ body {
 }
 
 .persona {
+    height: 100%;
     position: absolute;
     right: 90px;
     bottom: 0px;
@@ -95,12 +96,56 @@ body {
   line-height: 1.6;
 }
 
-@media only screen
-and (min-device-width: 760px)
-and (max-device-width: 1442px) {
-  .persona{
-      height: 100%;
 
-    /* max-height: 600px; */
+/* Teléfonos (hasta 767px) */
+@media (max-width: 767px) {
+  .persona {
+    height: 60%;
+    position: absolute;
+    right: -150px;
+    bottom: 0px;
+    opacity: 70%;
 }
+
+.fondo{
+  display: none;
+}
+
+.portadaTexto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  text-align: center;
+  margin: auto;
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 1px -1px 42px rgb(0, 0, 0);
+}
+
+.portadaContainer p {
+  text-align: center;
+  margin: auto;
+    font-size: 30px;
+    color: beige;
+}
+
+}
+
+/* Tablets y laptops pequeñas (768px a 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos para tablets o laptops pequeñas */
+}
+
+/* Laptops estándar (1025px a 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* Estilos para laptops */
+}
+
+/* Pantallas grandes / desktops (más de 1440px) */
+@media (min-width: 1441px) {
+  /* Estilos para pantallas grandes */
 }
