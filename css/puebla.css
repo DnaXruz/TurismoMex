@@ -33,12 +33,13 @@ h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   text-align: center;
-  color: #a21e20;
+  color: #1ea251;
 }
 
 .grid-lugares {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
   gap: 1.5rem;
 }
 
@@ -69,7 +70,7 @@ h2 {
 .info-llegar div {
   background: #f9f9f9;
   padding: 1rem;
-  border-left: 4px solid #a21e20;
+  border-left: 4px solid #1ea255;
   border-radius: 6px;
 }
 
