@@ -111,6 +111,10 @@ body {
   display: none;
 }
 
+.portadaContainer{
+  overflow: hidden;
+}
+
 .portadaTexto{
   display: flex;
   flex-direction: column;
