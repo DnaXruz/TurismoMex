@@ -106,7 +106,7 @@ h1 {
 
   /* Animación hamburguesa → X */
   .menuToggle.active .bar:nth-child(1) {
-    transform: rotate(45deg) translate(9px, 6px);
+    transform: rotate(45deg) translate(9px, 4.5px);
   }
 
   .menuToggle.active .bar:nth-child(2) {
@@ -114,7 +114,7 @@ h1 {
   }
 
   .menuToggle.active .bar:nth-child(3) {
-    transform: rotate(-45deg) translate(10px, -6px);
+    transform: rotate(-45deg) translate(10px, -4.5px);
   }
 }
 
