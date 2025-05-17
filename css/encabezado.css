@@ -8,6 +8,16 @@ h1 {
     margin-inline-end: 0px;
 }
 
+.menuToggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  padding: 10px 20px;
+}
+
 .navBar {
     background-color: #FFFEFE;
     display: flex;
@@ -40,4 +50,39 @@ h1 {
 
 .navMenu a:hover {
     color: coral;
+}
+
+@media (max-width: 767px) {
+  .navBar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .menuToggle {
+    display: block;
+  }
+
+  .navMenu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .navMenu.active {
+    display: flex;
+  }
+
+  .navMenu li {
+    padding: 10px 0;
+  }
+
+  .navMenu a {
+    font-size: 18px;
+  }
+    .navMenu {
+    display: none;
+  } 
 }
